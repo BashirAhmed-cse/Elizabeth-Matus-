@@ -7,12 +7,6 @@ import Image from "next/image";
 const JoinUS = () => {
 
 
-
-
-
-
-
-
   return (
     <div className="bg-[#012647]">
       <div className="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6   rounded-lg">
