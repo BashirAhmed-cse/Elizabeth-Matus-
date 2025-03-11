@@ -5,7 +5,7 @@ import { motion } from "framer-motion"; // Import Framer Motion
 
 const About = () => {
   return (
-    <div className="h-screen w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6 rounded-lg">
+    <div id="about" className="w-full max-w-6xl mx-auto px-4  py-12 rounded-lg scroll-mt-24">
       <div className="grid grid-cols-1 md:grid-cols-5 gap-8 text-gray-800">
         {/* Left Side Content (60%) */}
         <motion.div

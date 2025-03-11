@@ -18,7 +18,13 @@ const Footer = () => {
       router.push("/#join-us");
     }
   };
-
+  const handleAboutClick = () => {
+    if (pathname === "/") {
+      document.getElementById("about")?.scrollIntoView({ behavior: "smooth" });
+    } else {
+      router.push("/#about");
+    }
+  };
   return (
     <div className="bg-[#021730]">
       <div className="w-full max-w-6xl px-4 sm:px-6 lg:px-8 py-6 text-white mx-auto flex flex-col sm:flex-row sm:justify-between gap-6 sm:gap-0">
@@ -31,9 +37,9 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link className="hover:text-red-500 uppercase font-bold" href="/about">
+              <button onClick={handleAboutClick} className="hover:text-red-500 uppercase font-bold cursor-pointer">
                 About
-              </Link>
+              </button>
             </li>
             <li>
               <Link className="hover:text-red-500 uppercase font-bold" href="/issues">
@@ -41,7 +47,7 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <button onClick={handleJoinUsClick} className="hover:text-red-500 uppercase font-bold">
+              <button onClick={handleJoinUsClick} className="hover:text-red-500 uppercase font-bold cursor-pointer">
                 Join Us
               </button>
             </li>
@@ -67,32 +73,27 @@ const Footer = () => {
         </div>
 
         {/* Contact Information */}
-        <div className="flex flex-col items-center sm:items-start sm:w-1/4 md:w-1/5 text-center">
-          <button
-            onClick={handleJoinUsClick}
-            className="text-sm uppercase text-white font-bold cursor-pointer"
-          >
-            Contact Us
-          </button>
-           {/* Social Media Icons */}
-           <div className="flex py-4 text-gray-800 text-sm flex-row justify-center gap-4">
-            <a
-              href=""
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-8"
-            >
-              <FaFacebook className="text-white h-8 w-8" />
-            </a>
-            <a
-              href=""
-              target="_blank"
-              className="w-8"
-            >
-              <BsTwitterX className="text-white h-8 w-8" />
-            </a>
-          </div>
-        </div>
+        <div className="flex flex-col items-center text-center w-full sm:w-1/4 md:w-1/5">
+  <button
+    onClick={handleJoinUsClick}
+    className="text-sm uppercase text-white font-bold cursor-pointer"
+  >
+    Contact Us
+  </button>
+
+  {/* Social Media Icons */}
+  <div className="flex py-4 items-center justify-center">
+    <a
+      href="https://www.facebook.com/people/Elizabeth-Matus-For-Dallas-City-Council-District-5/61573062202707/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="w-8"
+    >
+      <FaFacebook className="text-white h-8 w-8" />
+    </a>
+  </div>
+</div>
+
       </div>
     </div>
   );

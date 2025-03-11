@@ -20,26 +20,21 @@ export default function Home() {
         </motion.section>
 
         {/* About Section */}
-        <motion.section
-          className="overflow-hidden py-12"
-          initial={{ opacity: 0 }} // Start hidden
-          whileInView={{ opacity: 1 }} // Fade in when in view
-          viewport={{ once: true }} // Animation triggers once when it enters the viewport
-          transition={{ duration: 1 }} // Smooth transition
-          id="about"
+        <section
+          
+    
+          
         >
           <About />
-        </motion.section>
+        </section>
 
         {/* Join Us Section */}
-        <motion.section
-          initial={{ opacity: 0 }} // Start hidden
-          whileInView={{ opacity: 1 }} // Fade in when in view
-          transition={{ duration: 1 }} // Smooth transition
-          id="join-us"
+        <section
+      
+       
         >
           <JoinUs />
-        </motion.section>
+        </section>
 
         {/* Support Section */}
         <motion.section
