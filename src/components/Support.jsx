@@ -23,25 +23,25 @@ const Support = () => {
         </p>
 
         {/* Donate Button */}
-        <button className="bg-[#FFD700] hover:bg-[#E6C200] text-[#063159] font-semibold text-lg uppercase px-8 py-3 rounded-lg shadow-md transition-transform transform hover:scale-105">
+        <Link href="https://secure.anedot.com/elizabeth-matus-for-dallas-city-council-district-5/0f9d4d0f-6f78-47c5-a243-a4b2e8423d11" className="bg-[#FFD700] hover:bg-[#E6C200] text-[#063159] font-semibold text-lg uppercase px-8 py-3 rounded-lg shadow-md transition-transform transform hover:scale-105">
           Make a Donation
-        </button>
+        </Link>
 
         {/* Donation Amount Options */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 mt-8">
-  <Link href="" className="px-6 py-3 text-white font-semibold rounded-lg shadow-md bg-[#E63946] hover:bg-[#C92D3A] transition-transform transform hover:scale-105">
+  <Link href="https://secure.anedot.com/elizabeth-matus-for-dallas-city-council-district-5/0f9d4d0f-6f78-47c5-a243-a4b2e8423d11" className="px-6 py-3 text-white font-semibold rounded-lg shadow-md bg-[#E63946] hover:bg-[#C92D3A] transition-transform transform hover:scale-105">
     $20
   </Link>
-  <Link href="" className="px-6 py-3 text-white font-semibold rounded-lg shadow-md bg-[#457B9D] hover:bg-[#346A87] transition-transform transform hover:scale-105">
+  <Link href="https://secure.anedot.com/elizabeth-matus-for-dallas-city-council-district-5/0f9d4d0f-6f78-47c5-a243-a4b2e8423d11" className="px-6 py-3 text-white font-semibold rounded-lg shadow-md bg-[#457B9D] hover:bg-[#346A87] transition-transform transform hover:scale-105">
     $100
   </Link>
-  <Link href="" className="px-6 py-3 text-white font-semibold rounded-lg shadow-md bg-[#F4A261] hover:bg-[#E08E4F] transition-transform transform hover:scale-105">
+  <Link href="https://secure.anedot.com/elizabeth-matus-for-dallas-city-council-district-5/0f9d4d0f-6f78-47c5-a243-a4b2e8423d11" className="px-6 py-3 text-white font-semibold rounded-lg shadow-md bg-[#F4A261] hover:bg-[#E08E4F] transition-transform transform hover:scale-105">
     $250
   </Link>
-  <Link href="" className="px-6 py-3 text-white font-semibold rounded-lg shadow-md bg-[#2A9D8F] hover:bg-[#20897A] transition-transform transform hover:scale-105">
+  <Link href="https://secure.anedot.com/elizabeth-matus-for-dallas-city-council-district-5/0f9d4d0f-6f78-47c5-a243-a4b2e8423d11" className="px-6 py-3 text-white font-semibold rounded-lg shadow-md bg-[#2A9D8F] hover:bg-[#20897A] transition-transform transform hover:scale-105">
     $1000
   </Link>
-  <Link href="" className="px-6 py-3 text-white font-semibold rounded-lg shadow-md bg-[#FFB703] hover:bg-[#E6A202] transition-transform transform hover:scale-105">
+  <Link href="https://secure.anedot.com/elizabeth-matus-for-dallas-city-council-district-5/0f9d4d0f-6f78-47c5-a243-a4b2e8423d11" className="px-6 py-3 text-white font-semibold rounded-lg shadow-md bg-[#FFB703] hover:bg-[#E6A202] transition-transform transform hover:scale-105">
     Other Amount
   </Link>
 </div>

@@ -52,7 +52,7 @@ const Footer = () => {
               </button>
             </li>
             <li>
-              <Link className="text-red-500 uppercase font-bold" href="">
+              <Link className="text-red-500 uppercase font-bold" href="https://secure.anedot.com/elizabeth-matus-for-dallas-city-council-district-5/0f9d4d0f-6f78-47c5-a243-a4b2e8423d11">
                 Donate
               </Link>
             </li>

@@ -12,12 +12,12 @@ const Issues = () => {
     >
       <div className="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6 shadow-lg rounded-lg mt-25">
         <motion.h1 
-          className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 text-white text-center underline mt-25"
+          className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 text-white text-center  mt-25"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          Elizabeth Matus Talking Points:
+          Issues
         </motion.h1>
 
         <motion.p 

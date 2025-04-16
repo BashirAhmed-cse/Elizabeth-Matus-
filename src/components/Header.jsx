@@ -94,7 +94,7 @@ const Header = () => {
           </button>
 
           <Link
-            href="/"
+            href="https://secure.anedot.com/elizabeth-matus-for-dallas-city-council-district-5/0f9d4d0f-6f78-47c5-a243-a4b2e8423d11"
             className="bg-white text-gray-900 px-2 py-2 rounded-lg hover:bg-gray-300 text-2xl font-semibold uppercase"
           >
             Donate
@@ -103,7 +103,7 @@ const Header = () => {
 
         {/* Donate Button (Always Visible on Mobile) */}
         <Link
-          href="/"
+          href="https://secure.anedot.com/elizabeth-matus-for-dallas-city-council-district-5/0f9d4d0f-6f78-47c5-a243-a4b2e8423d11"
           className="bg-white text-gray-900  hover:bg-gray-400 px-4 py-2 rounded-lg  md:hidden uppercase"
         >
           Donate
